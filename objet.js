@@ -1,5 +1,4 @@
 // TODO : ajoutez ici la définition de l'objet perso
-
 let perso = {
     nom: "Aurora",
     sante: 150,
