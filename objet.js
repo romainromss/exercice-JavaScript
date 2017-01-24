@@ -1,6 +1,6 @@
 // TODO : ajoutez ici la définition de l'objet perso
 
-/*let perso = {
+let perso = {
     nom: "Aurora",
     sante: 150,
     force: 25,
@@ -21,12 +21,12 @@ perso.force = perso.force + 10;
 // Aurora apprend une nouvelle compétence
 perso.xp = perso.xp + 15;
 
-console.log(perso.decrire());*/
+console.log(perso.decrire());
 
 //***************************************************************
 
 // TODO : ajoutez ici la définition de l'objet chien
-/*let chien = {
+let chien = {
     nom: "paf",
     race: "staff",
     taille: 200,
@@ -38,11 +38,11 @@ console.log(perso.decrire());*/
 
 console.log(chien.nom + " est un " + chien.race + " mesurant " + chien.taille + " cm");
 
-console.log("Tiens, un chat ! " + chien.nom + " aboie : " + chien.aboyer());*/
+console.log("Tiens, un chat ! " + chien.nom + " aboie : " + chien.aboyer());
 
 //***************************************************************
 
-/*let r = Number(prompt("Entrez le rayon d'un cercle :"));
+let r = Number(prompt("Entrez le rayon d'un cercle :"));
 let cercle = {
     rayon: r, 
     
@@ -59,7 +59,7 @@ let cercle = {
 console.log("Son périmètre vaut " + cercle.perimetre());
 console.log("Son aire vaut " + cercle.aire());*/
 //***************************************************************
-/*let compte = {
+let compte = {
     titulaire: "Alex",
     solde: 0,
     
@@ -82,11 +82,11 @@ var credit = Number(prompt("Entrez le montant à créditer :"));
 compte.crediter(credit);
 var debit = Number(prompt("Entrez le montant à débiter :"));
 compte.debiter(debit);
-console.log(compte.decrire());*/
+console.log(compte.decrire());
 
 //#########################################################################################################################
 // TODO : ajoutez ici la définition de l'objet Chien
- /*var Chien = {
+ var Chien = {
      init : function (nom, race, taille){
          this.nom = nom
          this.race= race
@@ -109,11 +109,11 @@ console.log("Tiens, un chat ! " + crokdur.nom + " aboie : " + crokdur.aboyer());
 var pupuce = Object.create(Chien);
 pupuce.init("Pupuce", "bichon", 22);
 console.log(pupuce.nom + " est un " + pupuce.race + " mesurant " + pupuce.taille + " cm");
-console.log("Tiens, un chat ! " + pupuce.nom + " aboie : " + pupuce.aboyer());*/
+console.log("Tiens, un chat ! " + pupuce.nom + " aboie : " + pupuce.aboyer());
 
 //###############################################################
 
-/*const compte = {
+const compte = {
         titulaire: "Alex",
         solde: 0,  
  
@@ -136,10 +136,10 @@ var credit = Number(prompt(" entrez votre montant a crediter "))
 compte.crediter(credit)
 var debit = Number(prompt(" entrez votre montant a débiter "))
 compte.debiter(debit)
-console.log(compte.decrire())*/
+console.log(compte.decrire())
 
 //##############################################################
-/*const Chien = {
+const Chien = {
     init : function (nom, race, taille){
         this.nom = nom
         this.race = race
@@ -172,7 +172,7 @@ console.log("Tiens, un chat ! " + pupuce.nom + " aboie : " + pupuce.aboyer());*/
 
 //***************************************************************
 
-/*const perso = {
+const perso = {
     initPerso : function (nom, sante, force, xp, or, cle) { 
     this.nom = nom;
     this.sante = sante;
@@ -240,10 +240,10 @@ glacius.attaquer(zozog);
 console.log(aurora.decrire());
 console.log(glacius.decrire());*/
 
-//***********************************************************************************************
+//#########################################################################################################################
 
 // TODO : ajoutez ici la définition des objets nécessaires
-/*var CompteBancaire = {
+var CompteBancaire = {
     initCB : function (nom, solde){
     this.nom = nom
     this.solde = solde
@@ -294,7 +294,7 @@ console.log(compte1.decrire());
 console.log(compte2.decrire());*/
 //**************************************************************
 
-/*var Mousquetaires = {
+var Mousquetaires = {
     init : function(nom){
         this.nom = nom    
     },
@@ -328,28 +328,28 @@ mous4.init("Dartagnan")
 mousquetaires.push(mous4)
   mousquetaires.forEach (function (mousquetaires){
     console.log(mousquetaires.decrire());
-});*/
+});
 
-//**************************************************************
-/*var valeurs = [11, 3, 7, 2, 9, 10];
+//=
+var valeurs = [11, 3, 7, 2, 9, 10];
 var somme = 0
 for (var i = 0; i < valeurs.length; i ++){
     somme = somme + valeurs[i]
 }
     console.log(somme);*/
 
-//**************************************************************
-/*var valeurs = [11, 3, 7, 2, 9, 10];
+//#########################################################################################################################
+var valeurs = [11, 3, 7, 2, 9, 10];
 var maximum = valeurs[0]
 for(var i = 0; i < valeurs.length; i ++){
     if (valeurs[i] > maximum){
     maximum = valeurs[i]   
     }
 }
-console.log(maximum)*/
+console.log(maximum)
 
-//**************************************************************
-/*var tableau = []
+//#########################################################################################################################
+var tableau = []
 while (mot !== "stop"){
     var mot = prompt ("entrez un mot ou tapez stop pour arreter")
     if(mot !== "stop"){
@@ -358,10 +358,10 @@ while (mot !== "stop"){
 }
 tableau.forEach (function (mot){
     console.log(mot)
-})*/
+})
 
-//**************************************************************
-/*var Film = {
+//#########################################################################################################################
+var Film = {
     init: function (titre, annee, realisateur) {
         this.titre = titre;
         this.annee = annee;
@@ -388,10 +388,10 @@ films.push(film3);
 
 films.forEach(function (film) {
     console.log(film.decrire());
-});*/
-//**************************************************************
+});
+//#########################################################################################################################
 
-/*var Chien = {
+var Chien = {
     init: function (nom, race, taille) {
         this.nom = nom;
         this.race = race;
@@ -427,5 +427,5 @@ console.log("Le chenil héberge " + chiens.length + " chiens :");
 chiens.forEach(function (chien) {
     console.log(chien.nom + " est un " + chien.race + " mesurant " + chien.taille + " cm. " +
         "Il aboie : " + chien.aboyer());
-});*/
+});
 
